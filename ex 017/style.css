@@ -1,0 +1,27 @@
+@charset "UTF-8"; 
+p {text-align: justify;
+    font-family: 'Allura', cursive;}
+     
+body {background-image: radial-gradient( #0be955, #BEC7C7 ,#06111C, #bfc1c2, #353c61  );
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius:20px;
+    box-shadow: 10px 10px 100px
+    #BEC7C7;
+font-size: 30px;
+font-weight: LIGHTER;
+/* LIGHTER, NORMAL, BOLD OR BOLDER*/
+
+}
+
+}  
+h1{ color: #2dbbd4;
+ text-align: center;
+ text-shadow:3px 3px 3px #0f6777 ;
+}
+h2 { color: #09f729; 
+/*shorthand font= seguencia->
+font-style, font- weight, font size, font family*/
+font: italic bolder larger Serif ;
+}

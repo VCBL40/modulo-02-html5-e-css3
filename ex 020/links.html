@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> links</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a { color: greenyellow;
+        text-decoration: none;
+        font-weight: bold ;}
+        a:visited { color: rgb(93, 14, 240);}
+        a:hover { 
+            color: chocolate;
+            text-decoration: underline;
+        }
+        a:active {
+            color: cyan;
+        }
+        a::after {
+            content:'[link]';
+            color: darkgray;
+            font-weight: normal;
+            text-decoration: none;
+
+        }
+        a::before { 
+            content: '☠ ';
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1> Personalizando links</h1>
+    <ul>
+        <li> <a href="https://topcineflix.online/ " target="_blank">Repositório hub</a>
+        <li> <a href="https://topcineflix.online/" target="_blank">Facebook</a>
+        <li><a href="https://topcineflix.online/" target="_blank">Whatssapp</a>
+        <li> <a href="https://topcineflix.online/" target="_blank">Gmail </a>
+    </ul>
+</body>
+</html>
